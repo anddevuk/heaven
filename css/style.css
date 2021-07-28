@@ -2,7 +2,6 @@ html, body {
     margin:0;
     padding:0;
     background-size: cover;
-    background: url(/images/7.jpg);
     color:#fff;
 }
 body, p, input, select, textarea {
@@ -298,7 +297,7 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea {
 }
 
 video {
-    object-fit: cover;
+    object-fit: contain;
     width: 100vw;
     height: 100vh;
     position: fixed;
